@@ -13,6 +13,8 @@ const reactionEmoji = {
 
 const ReactionButtons = ({ post }) =>
 {
+    const dispatch = useDispatch()
+
     return (
         <div>ReactionButtons</div>
     )
