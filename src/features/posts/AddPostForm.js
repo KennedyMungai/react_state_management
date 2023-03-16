@@ -34,7 +34,7 @@ const AddPostForm = () =>
     return (
         <section>
             <h2>Add a New Post</h2>
-            <form >
+            <form onSubmit={onSubmitHandler}>
                 <label htmlFor="postTitle">Post Title: </label>
                 <input
                     type="text"
