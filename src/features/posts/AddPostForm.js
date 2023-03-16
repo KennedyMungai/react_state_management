@@ -31,6 +31,8 @@ const AddPostForm = () =>
         setContent('')
     }
 
+    const canSave = Boolean(title) && Boolean(content) && Boolean(userId)
+
     const userOptions = users.map((user) => (
         <option
             value={user.id}
