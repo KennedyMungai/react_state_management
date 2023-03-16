@@ -6,6 +6,7 @@ import { decrement, increment } from './counterSlice'
 const Counter = () =>
 {
     const count = useSelector((state) => state.counter.count)
+    const dispatch = useDispatch()
 
     return (
         <div>Counter</div>
