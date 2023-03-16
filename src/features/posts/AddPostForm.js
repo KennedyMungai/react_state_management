@@ -57,6 +57,7 @@ const AddPostForm = () =>
                     value={title}
                     onChange={onTitleChanged}
                 />
+                {userOptions}
                 <label htmlFor="postContent">Content: </label>
                 <textarea
                     name="postContent"
