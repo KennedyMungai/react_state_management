@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 90vh;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: #ff885594;
     color: rgb(88, 37, 3);
     text-align: center;
