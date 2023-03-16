@@ -46,7 +46,7 @@ const Counter = () =>
                     placeholder="Increment Amount"
                 />
                 <button
-                    onClick={() => dispatch(incrementByAmount(10))}
+                    onClick={() => dispatch(incrementByAmount(addValue))}
                 >
                     Increment By {incrementAmount}
                 </button>
