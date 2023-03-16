@@ -30,7 +30,8 @@ const postSlice = createSlice({
                     payload: {
                         id: nanoid(),
                         title,
-                        content
+                        content,
+                        userId
                     }
                 }
             }
