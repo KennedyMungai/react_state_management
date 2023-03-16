@@ -10,6 +10,8 @@ const Counter = () =>
 
     const [incrementAmount, setIncrementAmount] = useState(0)
 
+    const addValue = Number(incrementAmount)
+
     return (
         <section>
             <p>{count}</p>
