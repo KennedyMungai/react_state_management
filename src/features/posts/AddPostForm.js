@@ -31,6 +31,15 @@ const AddPostForm = () =>
         setContent('')
     }
 
+    const userOptions = users.map((user) => (
+        <option
+            value={user.id}
+            key={user.id}
+        >
+            {user.name}
+        </option>
+    ))
+
     const onSubmitHandler = (e) => 
     {
         e.preventDefault()
