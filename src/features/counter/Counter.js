@@ -12,6 +12,12 @@ const Counter = () =>
 
     const addValue = Number(incrementAmount) || 0
 
+    const resetAll = () =>
+    {
+        setIncrementAmount(0)
+        dispatch(reset())
+    }
+
     return (
         <section>
             <p>{count}</p>
