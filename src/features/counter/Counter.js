@@ -48,7 +48,7 @@ const Counter = () =>
                 <button
                     onClick={() => dispatch(incrementByAmount(10))}
                 >
-                    Increment By 10
+                    Increment By {incrementAmount}
                 </button>
             </div>
         </section>
