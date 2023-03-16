@@ -1,10 +1,11 @@
 import React from 'react'
+import PostsList from './features/posts/postsList'
 
 const App = () =>
 {
     return (
-        <div className="">
-            <h1>Chicken wings</h1>
+        <div>
+            <PostsList />
         </div>
     )
 }
