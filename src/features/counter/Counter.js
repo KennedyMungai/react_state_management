@@ -12,10 +12,14 @@ const Counter = () =>
         <section>
             <p>{count}</p>
             <div className="">
-                <button>
+                <button
+                    onClick={() => dispatch(increment)}
+                >
                     +
                 </button>
-                <button>
+                <button
+                    onClick={() => dispatch(decrement)}
+                >
                     -
                 </button>
             </div>
