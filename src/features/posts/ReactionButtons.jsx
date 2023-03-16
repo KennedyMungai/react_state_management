@@ -11,7 +11,7 @@ const reactionEmoji = {
     coffee: '☕'
 }
 
-const ReactionButtons = () =>
+const ReactionButtons = ({ post }) =>
 {
     return (
         <div>ReactionButtons</div>
