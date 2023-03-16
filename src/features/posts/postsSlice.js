@@ -13,3 +13,12 @@ const initialState = [
         content: 'Mark Zuckerburg is scary'
     }
 ]
+
+
+const postSlice = createSlice({
+    name: 'posts',
+    initialState,
+    reducers: {
+
+    }
+})
