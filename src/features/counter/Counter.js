@@ -39,6 +39,11 @@ const Counter = () =>
                 </button>
             </div>
             <div className="">
+                <input
+                    type="number"
+                    value={incrementAmount}
+                    onChange={(e) => setIncrementAmount(e.target.value)}
+                />
                 <button
                     onClick={() => dispatch(incrementByAmount(10))}
                 >
