@@ -13,12 +13,12 @@ const Counter = () =>
             <p>{count}</p>
             <div className="">
                 <button
-                    onClick={() => dispatch(increment)}
+                    onClick={() => dispatch(increment())}
                 >
                     +
                 </button>
                 <button
-                    onClick={() => dispatch(decrement)}
+                    onClick={() => dispatch(decrement())}
                 >
                     -
                 </button>
