@@ -1,10 +1,10 @@
 import React from 'react'
 
-const counter = () =>
+const Counter = () =>
 {
     return (
         <div>counter</div>
     )
 }
 
-export default counter
+export default Counter
