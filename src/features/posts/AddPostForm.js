@@ -31,6 +31,11 @@ const AddPostForm = () =>
         setContent('')
     }
 
+    const onSubmitHandler = (e) => 
+    {
+        e.preventDefault()
+    }
+
     return (
         <section>
             <h2>Add a New Post</h2>
