@@ -17,6 +17,7 @@ const PostsList = () =>
             <p>{post.content.substring(0, 100)}</p>
             <p>
                 <PostsAuthor userId={post.userId} />
+                <TimeAgo timestamp={post.date} />
             </p>
         </article>
     ))
