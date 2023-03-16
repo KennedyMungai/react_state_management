@@ -9,7 +9,9 @@ const Counter = () =>
     const dispatch = useDispatch()
 
     return (
-        <div>Counter</div>
+        <section>
+            <p>{count}</p>
+        </section>
     )
 }
 
