@@ -8,6 +8,8 @@ const Counter = () =>
     const count = useSelector((state) => state.counter.count)
     const dispatch = useDispatch()
 
+    const [incrementAmount, setIncrementAmount] = useState(0)
+
     return (
         <section>
             <p>{count}</p>
