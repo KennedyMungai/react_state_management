@@ -2,6 +2,7 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 import PostsAuthor from './PostsAuthor'
 import { selectAllPosts } from './postsSlice'
+import TimeAgo from './TimeAgo'
 
 
 const PostsList = () =>
