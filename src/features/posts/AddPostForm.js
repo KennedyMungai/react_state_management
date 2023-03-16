@@ -19,6 +19,13 @@ const AddPostForm = () =>
                     id="postTitle"
                     onChange={onTitleChanged}
                 />
+                <label htmlFor="postContent">Content: </label>
+                <textarea
+                    name="postContent"
+                    id="postContent"
+                    value={content}
+                    onChange={onContentChanged}
+                />
             </form>
         </section>
     )
