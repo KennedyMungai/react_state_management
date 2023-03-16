@@ -4,7 +4,9 @@ import Counter from './features/counter/Counter'
 const App = () =>
 {
     return (
-        <Counter />
+        <div className="">
+            <h1>Chicken wings</h1>
+        </div>
     )
 }
 
