@@ -11,6 +11,10 @@ const Counter = () =>
     return (
         <section>
             <p>{count}</p>
+            <div className="">
+                <button>+</button>
+                <button>-</button>
+            </div>
         </section>
     )
 }
