@@ -18,3 +18,7 @@ article {
     border: 0.01rem rgb(88, 37, 3) solid;
     cursor: pointer;
 }
+
+article:hover {
+    border: 0.01rem rgb(255, 111, 0) solid;
+}
