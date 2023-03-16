@@ -16,7 +16,10 @@ const PostsList = () =>
     ))
 
     return (
-        <div>postsList</div>
+        <section>
+            <h2>Posts</h2>
+            {renderedPosts}
+        </section>
     )
 }
 
