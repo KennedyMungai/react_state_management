@@ -7,13 +7,27 @@ const initialState = [
         id: '1',
         title: 'Microsoft',
         content: 'Bill Gates is a bitch nigga',
-        date: sub(new Date(), { minutes: 10 }).toISOString()
+        date: sub(new Date(), { minutes: 10 }).toISOString(),
+        reactions: {
+            thumbsUp: 0,
+            wow: 0,
+            heart: 0,
+            rocket: 0,
+            coffee: 0,
+        }
     },
     {
         id: '2',
         title: 'Meta',
         content: 'Mark Zuckerburg is scary',
-        date: sub(new Date(), { minutes: 5 }).toISOString()
+        date: sub(new Date(), { minutes: 5 }).toISOString(),
+        reactions: {
+            thumbsUp: 0,
+            wow: 0,
+            heart: 0,
+            rocket: 0,
+            coffee: 0,
+        }
     }
 ]
 
