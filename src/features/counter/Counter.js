@@ -28,7 +28,7 @@ const Counter = () =>
                     +
                 </button>
                 <button
-                    onClick={() => dispatch(reset())}
+                    onClick={resetAll}
                 >
                     Reset
                 </button>
