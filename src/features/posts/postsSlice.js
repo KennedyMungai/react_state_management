@@ -6,12 +6,14 @@ const initialState = [
     {
         id: '1',
         title: 'Microsoft',
-        content: 'Bill Gates is a bitch nigga'
+        content: 'Bill Gates is a bitch nigga',
+        date: sub(new Date(), { minutes: 10 }).toISOString()
     },
     {
         id: '2',
         title: 'Meta',
-        content: 'Mark Zuckerburg is scary'
+        content: 'Mark Zuckerburg is scary',
+        date: sub(new Date(), { minutes: 5 }).toISOString()
     }
 ]
 
