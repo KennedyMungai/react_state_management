@@ -57,6 +57,13 @@ const AddPostForm = () =>
                     value={title}
                     onChange={onTitleChanged}
                 />
+                <select
+                    name="postAuthor"
+                    id="postAuthor"
+                    onChange={onAuthorChanged}
+                >
+                    {userOptions}
+                </select>
                 <label htmlFor="postContent">Content: </label>
                 <textarea
                     name="postContent"
