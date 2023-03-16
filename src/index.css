@@ -22,3 +22,15 @@ article {
 article:hover {
     border: 0.1rem rgb(255, 111, 0) solid;
 }
+/* 
+.reactionButton {
+    padding: 0.5rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    margin: 0.75rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+} */
