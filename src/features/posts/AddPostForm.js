@@ -76,6 +76,7 @@ const AddPostForm = () =>
                 />
                 <button
                     onClick={onSavePostClicked}
+                    disabled={!canSave}
                 >
                     Save Post
                 </button>
