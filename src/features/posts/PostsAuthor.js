@@ -5,9 +5,10 @@ import { selectAllUsers } from '../users/usersSlice'
 
 const PostsAuthor = () =>
 {
-    return (
-        <div>PostsAuthor</div>
-    )
+    const users = selectAllUsers
+    const author = users.find(user => user.id === userId)
+
+    return <span>by {author ? author.name : 'Unknown Author'}</span>
 }
 
 export default PostsAuthor
