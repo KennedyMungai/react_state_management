@@ -24,7 +24,7 @@ const postSlice = createSlice({
             {
                 state.push(action.payload)
             },
-            prepare(title, content)
+            prepare(title, content, userId)
             {
                 return {
                     payload: {
