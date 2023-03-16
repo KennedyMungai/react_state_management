@@ -17,6 +17,7 @@ const AddPostForm = () =>
                     type="text"
                     name="postTitle"
                     id="postTitle"
+                    value={title}
                     onChange={onTitleChanged}
                 />
                 <label htmlFor="postContent">Content: </label>
