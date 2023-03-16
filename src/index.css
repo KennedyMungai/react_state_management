@@ -6,4 +6,13 @@ body {
     overflow: hidden;
     background-color: #ff885594;
     color: rgb(88, 37, 3);
+    text-align: center;
+}
+
+article {
+    padding: 1.5rem;
+    margin: 0.5rem;
+    background-color: #ff8855;
+    border-radius: 1rem;
+    border: 0.01rem rgb(88, 37, 3) solid;
 }
