@@ -25,4 +25,6 @@ const postSlice = createSlice({
 
 const postsReducer = postSlice.reducer
 
+export const selectAllPosts = (state) => state.posts
+
 export default postsReducer
