@@ -9,7 +9,9 @@ const AddPostForm = () =>
     const onContentChanged = e => setContent(e.target.value)
 
     return (
-        <div>AddPostForm</div>
+        <section>
+            <h2>Add a New Post</h2>
+        </section>
     )
 }
 
