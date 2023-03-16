@@ -14,7 +14,9 @@ const PostsList = () =>
         >
             <h3>{post.title}</h3>
             <p>{post.content.substring(0, 100)}</p>
-            <p>{post.id}</p>
+            <p>
+                <PostsAuthor userId={post.user} />
+            </p>
         </article>
     ))
 
