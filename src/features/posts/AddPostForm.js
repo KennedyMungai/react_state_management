@@ -6,11 +6,20 @@ import { postAdded } from './postsSlice'
 
 const AddPostForm = () =>
 {
+
+
     const [title, setTitle] = useState('')
     const [content, setContent] = useState('')
 
     const onTitleChanged = e => setTitle(e.target.value)
     const onContentChanged = e => setContent(e.target.value)
+
+    const onSavePostClicked = () => 
+    {
+        if (title && content)
+        {
+        }
+    }
 
     return (
         <section>
