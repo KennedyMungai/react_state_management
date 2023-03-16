@@ -2,7 +2,7 @@ import { formatDistanceToNow, parseISO } from 'date-fns'
 import React from 'react'
 
 
-const TimeAgo = () =>
+const TimeAgo = ({ timestamp }) =>
 {
     return (
         <div>TimeAgo</div>
