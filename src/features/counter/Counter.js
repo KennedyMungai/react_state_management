@@ -28,6 +28,13 @@ const Counter = () =>
                     -
                 </button>
             </div>
+            <div className="">
+                <button
+                    onClick={() => dispatch(10)}
+                >
+                    Increment By 10
+                </button>
+            </div>
         </section>
     )
 }
