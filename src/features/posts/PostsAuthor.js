@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux'
 import { selectAllUsers } from '../users/usersSlice'
 
 
-const PostsAuthor = () =>
+const PostsAuthor = ({ userId }) =>
 {
     const users = selectAllUsers
     const author = users.find(user => user.id === userId)
