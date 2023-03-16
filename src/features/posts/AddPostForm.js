@@ -62,6 +62,7 @@ const AddPostForm = () =>
                     id="postAuthor"
                     onChange={onAuthorChanged}
                 >
+                    <option value=""></option>
                     {userOptions}
                 </select>
                 <label htmlFor="postContent">Content: </label>
