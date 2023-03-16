@@ -22,3 +22,7 @@ const postSlice = createSlice({
 
     }
 })
+
+const postsReducer = postSlice.reducer
+
+export default postsReducer
