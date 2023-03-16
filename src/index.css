@@ -16,4 +16,5 @@ article {
     background-color: #ff8855;
     border-radius: 1rem;
     border: 0.01rem rgb(88, 37, 3) solid;
+    cursor: pointer;
 }
